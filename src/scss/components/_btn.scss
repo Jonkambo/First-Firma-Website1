@@ -1,0 +1,111 @@
+.btn {
+    padding: 12px 40px;
+    color: var(--text-color-light);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    align-items: center;
+
+    background-color: var(--btn-color);
+    border-radius: 1000px;
+
+    &:hover {
+        background-color: var(--btn-color-hover);
+        outline: none;
+    }
+
+    &:active {
+        background-color: var(--btn-color-active);
+        transform: scale(0.98);
+        outline: none;
+    }
+
+    &:focus {
+        outline: 2px solid var(--btn-color-light);
+        outline: none;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        outline: none;
+    }
+}
+
+.btn-create {
+    padding: 16px 40px;
+    justify-content: center;
+    border-radius: 1000px;
+
+    background: var(--btn-color-hover);
+    color: var(--bg-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+
+    outline: none;
+
+    &:hover {
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        outline: none;
+    }
+
+    &:active {
+        background-color: var(--primary-color-btn);
+        transform: scale(0.98);
+        outline: none;
+    }
+
+    &:focus {
+        outline: 2px solid var(--btn-color-hover);
+        outline: none;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        outline: none;
+    }
+}
+
+.btn-applicaton {
+    padding: 13px 40px;
+    border-radius: 1000px;
+
+    background: var(--btn-color-hover);
+    color: var(--bg-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+
+    outline: none;
+
+    &:hover {
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        outline: none;
+    }
+
+    &:active {
+        background-color: var(--primary-color-btn);
+        transform: scale(0.98);
+        outline: none;
+    }
+
+    &:focus {
+        outline: 2px solid var(--btn-color-hover);
+        outline: none;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        outline: none;
+    }
+}

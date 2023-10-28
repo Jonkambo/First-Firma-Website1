@@ -1,0 +1,91 @@
+.footer {
+    display: flex;
+    // gap: 324px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 90px 0px;
+
+    &__company {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__privacy {
+        color: var(--btn-color);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        margin: 0;
+
+        &:hover {
+            color: var(--btn-color-active);
+        }
+    }
+
+    &__selection {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    &__link {
+        color: #2C2D2E;
+
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+
+        &:hover {
+            color: var(--btn-color-active);
+        }
+    }
+
+    &__feedback {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-end;
+    }
+}
+
+.social {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    &__link {
+        & > svg {
+            fill: var(--btn-color);
+        }
+
+        &:hover {
+            & > svg {
+                fill: var(--btn-color-active);
+            }
+        }
+    }
+
+    &__number {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 16px;
+        
+        &__link {
+            color: var(--btn-color);
+
+            &:hover {
+                color: var(--btn-color-active);
+            }
+        }
+
+
+        
+    }
+}

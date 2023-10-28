@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & OpenGraph -->
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/images/og.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="">
+
+    <!-- Favicon -->
+    @@include('layout/_favicon.html')
+
+    <!-- Preload Fonts -->
+    @@include('layout/_fonts.html')
+
+    <!-- Styles -->
+    @@include('layout/_styles.html')
+</head>
+<body>
+    <!-- Header -->
+    @@include('layout/_header.html')
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+        <section class="about-service">
+            <div class="about-service__container container">
+                <article class="about-service__content">
+                    <h1 class="about-service__title h1">Сервис безопасных сделок с гарантией доставки</h1>
+                    <p class="about-service__text text-info">Сервис предоставляет 100% защиту денежных средств для покупателей и продавцов при покупках товаров в интернете</p>
+                    <button class="btn-create reset-btn">Создать сделку</button>
+                </article>
+                <div class="about-service__img">
+                    <picture>
+                        <img src="./assets/images/offeristy.png" alt="create offer pls">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="cross">
+            <div class="cross__container container">
+                <article class="cross__block block">
+                    <div class="block__payers">
+                        <h2 class="payers__title h2">Покупателям</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M12 8L20 16L12 24" stroke="#2C2D2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <ul class="block__advantages advantages reset-list">
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Безопасные онлайн покупки</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Возможность приобретить товары из другого города</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Быстрая доставка</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Возможность проверки и примерки покупки</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Курьерская доставка до двери</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="cross__block block">
+                    <div class="block__payers">
+                        <h2 class="payers__title h2">Продавцам</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M12 8L20 16L12 24" stroke="#2C2D2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <ul class="block__advantages advantages reset-list">
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Безопасные онлайн продажи</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Доставка товаров клиентам по низким ценам</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Возврат товара при отказе</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Онлайн оформление сопроводительных документов</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Возможность получения оплаты на карту или расчётный счёт</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="cross__block block">
+                    <h2 class="payers__title h2">Площадкам</h2>
+
+                    <ul class="block__advantages advantages reset-list">
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Новый способ монетизации проекта</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Повышение доверия пользователей</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Продажа через социальные сети и площадки</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Новые услуги и сервисы для клиентов</p>
+                        </li>
+                        <li class="advantages__stroke">
+                            <div class="advantages__stroke__svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="text-adv">Высокий процент выкупаемости заказов</p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-company">
+            <div class="about-company__container container">
+                <h3 class="container__title h3">О сервисе Prodeal</h3>
+
+                <article class="about-company__advantages-2 advantages-2">
+                    <div class="advantages-2__list">
+
+                        <div class="advantages-2__column-container">
+                            <p class="text-adv-2">Низкая стоимость</p>
+                            <p class="text-adv-2">100% возврат оплаты</p>
+                        </div>
+
+                        <p class="text-adv-2">100% компенсация затрат</p>
+                        <p class="text-adv-2">Точность выполнения условий сделки</p>
+                        <p class="text-adv-2">Оплата после доставки</p>
+
+                        <div class="advantages-2__column-container">
+                            <p class="text-adv-2">100% возврат товара</p>
+                            <p class="text-adv-2">Быстрая доставка</p>
+                        </div>
+
+                    </div>
+
+                    <div class="advantages-2__service-info">
+                        <p class="service-info"><strong class="strong">Сервис Prodeal</strong> выступает гарантом в сделках купли-продажи товаров и является агрегатором доставки</p>
+
+                        <div class="advantages-2__photo-text">
+                            <picture>
+                                <img src="./assets/images/smileface.jpeg" alt="pics" class="pic">
+                            </picture>
+                            <p class="text-adv-3">Мы защищаем интересы сторон по безопасной сделке и организуем доставку товара на выгодных условиях. Сделка между продавцом и покупателем может быть заключена в личном кабинете сервиса или покупатель может выбрать безопасную сделку при оформлении заказа на партнерской площадке.</p>
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="how-it-works">
+            <article class="how-it-works__container container">
+                <h4 class="how-it-works__title h4">
+                    Как это работает?
+                </h4>
+
+                <ul class="how-it-works__selection-block selection-block reset-list">
+
+                    <li class="selection-block__content">
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/box.png" alt="box" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">1. Устная договорённость участников</p>
+                        </div>
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/folder.png" alt="folder" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">2. Заполнение данных продавцов</p>
+                        </div>
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/folder.png" alt="folder" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">3. Заполнение данных покупателем</p>
+                        </div>
+
+                    </li>
+
+                    <li class="selection-block__content">
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/box.png" alt="box" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">4. Депонирование суммы за товар и услуги</p>
+                        </div>
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/box.png" alt="box" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">5. Передача посылки с заказом перевозчику</p>
+                        </div>
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/box.png" alt="box" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">6. Доставка груза и проверка получателем</p>
+                        </div>
+                    </li>
+
+                    <li class="selection-block__content">
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/wallet.png" alt="wallet" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">7. Оплата продавцом за услугу доставки</p>
+                        </div>
+                        <div class="selection-block__content__frames">
+                            <picture style="height: 50px;">
+                                <img src="./assets/images/wallet.png" alt="wallet" class="selection-block__content__frames__img">
+                            </picture>
+                            <p class="selection-content-text">8. Перевод оплаты продавцу, завершение </p>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </article>
+        </section>
+
+        <section class="calculator">
+            <div class="calculator__calculator-block calculator-block container">
+                <h4 class="calculator-block__title calculator-title">Калькулятор <br>безопасной сделки</h4>
+
+                <div class="calculator-block__informations">
+                    <article class="calculator-block__informations__block">
+                        <p class="calculator-info">Информация о товаре</p>
+                        <select name="divider" id="divider1" class="calculator-block__informations__block__selector"></select>
+                        <div class="calculator-block__informations__block__size size">
+
+                            <div class="size__input">
+
+                                <label for="lenght" class="input-text">
+                                    Длина, см
+                                </label>
+
+                                <input type="text" class="size__input__box" placeholder="0 см" name="input-lenght" id="lenght">
+                            </div>
+                            <div class="size__input">
+
+                                <label for="width" class="input-text">
+                                    Ширина, см
+                                </label>
+
+                                <input type="text" class="size__input__box" placeholder="0 см" name="input-width" id="width">
+                            </div>
+                            <div class="size__input">
+
+                                <label for="size" class="input-text">
+                                    Высота, см
+                                </label>
+
+                                <input type="text" class="size__input__box" placeholder="0 см" name="input-size" id="size">
+                            </div>
+
+                        </div>
+
+                        <div class="calculator-block__informations__block__cost cost">
+                            <div class="cost__weight">
+                                <label for="weight" class="input-text">
+                                    Вес, кг
+                                </label>
+                                <input class="cost__weight__input" type="text" placeholder="0 см" name="input-weights" id="weight">
+                            </div>
+                            <div class="cost__weight">
+                                <label for="cost" class="input-text">
+                                    Оценочная&nbsp;стоимость
+                                </label>
+                                <input class="cost__weight__input" type="text" placeholder="руб" name="input-cost" id="cost">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="calculator-block__informations__block">
+                        <p class="calculator-info">Информация по отправке</p>
+                        <select name="divider" id="divider2" class="calculator-block__informations__block__selector"></select>
+                        
+                        <div class="calculator-block__informations__block__select select">
+                            <label class="input-text" for="city">Город отправки</label>
+                            <select name="cities" id="city" class="select__city" onclick = 'this.children[0].remove()'>
+                                <option value="Moskow" selected disabled>Например: Москва</option>
+                            </select>
+                        </div>
+
+                        <div class="calculator-block__informations__block__radio calculator-radio">
+                            <div class="calculator-radio__input">
+                                <input type="radio" name="delivery" class="calculator-radio__input__delivery">
+                                <p class="delivery-input">
+                                    Забрать от двери
+                                </p>
+                            </div>
+                            <div class="calculator-radio__input">
+                                <input type="radio" name="delivery" class="calculator-radio__input__delivery">
+                                <p class="delivery-input">
+                                    Самостоятельная доставка до ПВЗ
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="calculator-block__informations__block">
+                        <p class="calculator-info">Информация о доставке</p>
+                        <select name="divider" id="divider3" class="calculator-block__informations__block__selector"></select>
+                        <div class="calculator-block__informations__block__select select">
+                            <label class="input-text" for="city-select">Город получения</label>
+                            <select name="cities" id="city-select" class="select__city" onclick = 'this.children[0].remove()'>
+                                <option value="Saint-Petersburg" selected disabled>Например: Санкт-Петербург</option>
+                            </select>
+                        </div>
+
+                        <div class="calculator-block__informations__block__radio calculator-radio">
+                            <div class="calculator-radio__input">
+                                <input type="radio" name="receiving" class="calculator-radio__input__delivery">
+                                <p class="delivery-input">
+                                    Доставка до двери
+                                </p>
+                            </div>
+                            <div class="calculator-radio__input">
+                                <input type="radio" name="receiving" class="calculator-radio__input__delivery">
+                                <p class="delivery-input">
+                                    Самовывоз
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="btn-create" style="width: 182px;">
+                    Рассчитать
+                </button>
+            </div>
+        </section>
+
+        <section class="what-selling">
+            <div class="what-selling__container container">
+                <h4 class="what-selling__title h4-selling">Что можно продавать при помощи сервиса</h4>
+
+                <div class="what-selling__items">
+                    <article class="what-selling__items__title">
+                        <p class="what-selling__items__title__header selling-items">Новые и б/у товары на сайтах и досках объявлений</p>
+                        <p class="what-selling__items__title__text text-adv" style="width: 338px;">С помощью сервиса вы защищаете себя от недобросовестных покупателей. В случае отказа от товара по инициативе Покупателя, вам вернут товар бесплатно.</p>
+                        
+                        <picture class="what-selling__items__title__img">
+                            <img src="./assets/images/box.png" alt="box">
+                        </picture>
+                    </article>
+
+                    <article class="what-selling__items__title">
+                        <p class="what-selling__items__title__header selling-items">Онлайн продажи в интернет магазинах</p>
+                        <p class="what-selling__items__title__text text-adv" style="width: 360px;">Зная про гарантии сервиса Prodeal а и про возможость проверить товар перед оплатой, Ваши покупатели без проблем будут переводить предоплату. Всем выгодно честное сотрудничество.</p>
+                        
+                        <picture class="what-selling__items__title__img">
+                            <img src="./assets/images/paperbag.png" alt="paperbag">
+                        </picture>
+                    </article>
+
+                </div>
+
+                <div class="what-selling__items">
+                    <article class="what-selling__items__title">
+                        <p class="what-selling__items__title__header selling-items">Коллекционные предметы</p>
+                        <p class="what-selling__items__title__text text-adv" style="width: 371px;">Продаёте дорогие и уникальные товары, которые будут тщательно проверяться покупателем? С сервисом вы можете быть спокойней – перед вашей отправкой товара, покупатель зарезервирует средства для обеспечения сделки.</p>
+                        
+                        <picture class="what-selling__items__title__img">
+                            <img src="./assets/images/cinema.png" alt="cinematic lent" style="position: relative; width: 202px; height: 202px; right: 27px; bottom: 20px;">
+                        </picture>
+                    </article>
+
+                    <article class="what-selling__items__title">
+                        <p class="what-selling__items__title__header selling-items">Юридически значимые документы</p>
+                        <p class="what-selling__items__title__text text-adv" style="width: 360px;">Получать оплату за передачу различных документов: отчеты, акты, подлинники, трудовые договоры, гарантийные письма, расписки, доверенности и пр.</p>
+                        
+                        <picture class="what-selling__items__title__img">
+                            <img src="./assets/images/file.png" alt="folder" style="position: relative; width: 180px; height: 180px; right: -8px; bottom: -25px;">
+                        </picture>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="why-this-company">
+            <div class="why-this-company__container container">
+                <h4 class="why-this-company__title h4-why-this-company">
+                    Преимущества работы с сервисом Prodeal
+                </h4>
+                <article class="why-this-company__block">
+                    <div class="why-this-company__block__card">
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Продавцом может быть любое частное лицо</p>
+                    </div>
+                    <div class="why-this-company__block__card">
+
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Хранение средств покупателя на специальном счете</p>
+                    </div>
+                    <div class="why-this-company__block__card">
+
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Заключение сделки в режиме “онлайн 24/7”, без похода в банк или к юристу</p>
+                    </div>
+                </article>
+                <article class="why-this-company__block">
+                    <div class="why-this-company__block__card">
+
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Низкая стоимость доставки и комиссионных услуг</p>
+                    </div>
+                    <div class="why-this-company__block__card">
+
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Не требует сбора документов (договоров, закрывающих документов)</p>
+                    </div>
+                    <div class="why-this-company__block__card">
+
+                        <div class="why-this-company__block__card__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 13L9 17L19 7" stroke="#FF6743" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <p class="why-company-info">Контроль ведения сделки третьей стороной</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews__container container">
+                <h5 class="reviews__title h3">
+                    Отзывы наших клиентов
+                </h5>
+
+                <div class="reviews__block">
+                    <article class="reviews__block__review review">
+                        <div class="review__header">
+                            <div class="review__header__avatar">
+                                <picture>
+                                    <img src="./assets/images/review-1.png" alt="avatar">
+                                </picture>
+                            </div>
+                            <div class="review__header__FIO-rating">
+                                <p class="selection-content-text">Максим Фролов</p>
+                                <svg width="97" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.225 5.692 7.957 2.02a.629.629 0 0 1 .224-.258.585.585 0 0 1 .638 0 .629.629 0 0 1 .224.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L8.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.665.665 0 0 1-.152-.65.635.635 0 0 1 .185-.29.587.587 0 0 1 .303-.141l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L28.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L48.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L68.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L88.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Z" fill="#FFD400" stroke="#FFD400" stroke-width=".5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                        </div>
+                        <p class="why-company-info">Добрый день! Воспользовался сервисом «Prodeal» . Всё прошло хорошо! Давно пользуюсь Сдэком и это здорово, что к нему подключился такой полезный сервис. Всё прозрачно и понятно! Можно прописать условие сделки, приложить фото товара. Единственное, комиссию сервиса хотелось бы чуть поменьше. Рекомендую!</p>
+                    </article>
+                    <article class="reviews__block__review review">
+                        <div class="review__header">
+
+                            <div class="review__header__avatar">
+                                <picture>
+                                    <img src="./assets/images/review-2.png" alt="avatar">
+                                </picture>
+                            </div>
+
+                            <div class="review__header__FIO-rating">
+                                <p class="selection-content-text">Александр Исаев</p>
+                                <svg width="97" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.225 5.692 7.957 2.02a.629.629 0 0 1 .224-.258.585.585 0 0 1 .638 0 .629.629 0 0 1 .224.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L8.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.665.665 0 0 1-.152-.65.635.635 0 0 1 .185-.29.587.587 0 0 1 .303-.141l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L28.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L48.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L68.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L88.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Z" fill="#FFD400" stroke="#FFD400" stroke-width=".5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+
+                        </div>
+                        <p class="why-company-info">Добрый день! Воспользовался сервисом «Prodeal» . Всё прошло хорошо! Давно пользуюсь Сдэком и это здорово, что к нему подключился такой полезный сервис. Всё прозрачно и понятно! Можно прописать условие сделки, приложить фото товара. Единственное, комиссию сервиса хотелось бы чуть поменьше. Рекомендую!</p>
+                    </article>
+                </div>
+                <div class="reviews__block">
+                    <article class="reviews__block__review review">
+                        <div class="review__header">
+                            <div class="review__header__avatar">
+                                <picture>
+                                    <img src="./assets/images/review-3.png" alt="avatar">
+                                </picture>
+                            </div>
+                            <div class="review__header__FIO-rating">
+                                <p class="selection-content-text">Михаил Родионов</p>
+                                <svg width="97" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.225 5.692 7.957 2.02a.629.629 0 0 1 .224-.258.585.585 0 0 1 .638 0 .629.629 0 0 1 .224.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L8.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.665.665 0 0 1-.152-.65.635.635 0 0 1 .185-.29.587.587 0 0 1 .303-.141l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L28.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L48.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L68.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L88.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Z" fill="#FFD400" stroke="#FFD400" stroke-width=".5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                        </div>
+                        <p class="why-company-info">Добрый день! Воспользовался сервисом «Prodeal» . Всё прошло хорошо! Давно пользуюсь Сдэком и это здорово, что к нему подключился такой полезный сервис. Всё прозрачно и понятно! Можно прописать условие сделки, приложить фото товара. Единственное, комиссию сервиса хотелось бы чуть поменьше. Рекомендую!</p>
+                    </article>
+                    <article class="reviews__block__review review">
+                        <div class="review__header">
+                            <div class="review__header__avatar">
+                                <picture>
+                                    <img src="./assets/images/review-4.png" alt="avatar">
+                                </picture>
+                            </div>
+                            <div class="review__header__FIO-rating">
+                                <p class="selection-content-text">Руслан Аримов</p>
+                                <svg width="97" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.225 5.692 7.957 2.02a.629.629 0 0 1 .224-.258.585.585 0 0 1 .638 0 .629.629 0 0 1 .224.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L8.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.665.665 0 0 1-.152-.65.635.635 0 0 1 .185-.29.587.587 0 0 1 .303-.141l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L28.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.185.289a.664.664 0 0 1-.153.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L48.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L68.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Zm20 0 1.732-3.672a.63.63 0 0 1 .224-.258.585.585 0 0 1 .639 0 .628.628 0 0 1 .223.258l1.732 3.672 3.872.592a.588.588 0 0 1 .304.142c.086.076.15.176.186.289a.664.664 0 0 1-.154.651l-2.802 2.857.662 4.035c.084.518-.436.912-.88.668L88.5 13.02l-3.463 1.906c-.444.245-.964-.15-.88-.67l.662-4.034-2.802-2.856a.642.642 0 0 1-.164-.303.666.666 0 0 1 .012-.348.636.636 0 0 1 .185-.288.588.588 0 0 1 .303-.142l3.872-.593Z" fill="#FFD400" stroke="#FFD400" stroke-width=".5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                        </div>
+                        <p class="why-company-info">Добрый день! Воспользовался сервисом «Prodeal» . Всё прошло хорошо! Давно пользуюсь Сдэком и это здорово, что к нему подключился такой полезный сервис. Всё прозрачно и понятно! Можно прописать условие сделки, приложить фото товара. Единственное, комиссию сервиса хотелось бы чуть поменьше. Рекомендую!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="ansver-form">
+            <div class="ansver-form__container container">
+                <article class="ansver-form__text">
+                    <h6 class="ansver-form__text__title ansver-form-title">Есть вопросы? Оставьте заявку на консультацию</h6>
+                    <p class="ansver-form__text__info ansver-form-info">Оставьте заявку и наш консультант ответит на любые вопросы, расскажет про все возможности сервиса</p>
+                </article>
+
+                <article class="ansver-form__form">
+
+                    <div class="ansver-form__form__inputs">
+                        <input type="text" class="ansver-form__form__inputs__input-text" name="Name" id="Name-info" autocomplete="name" placeholder="Имя">
+                        <input type="email" class="ansver-form__form__inputs__input-text" name="Mail" id="Mail-info" autocomplete="email" placeholder="Email">
+                        <input type="tel" class="ansver-form__form__inputs__input-text" name="Phone" id="Phone-info" autocomplete="tel" placeholder="Телефон">
+                    </div>
+
+                    <button class="btn-applicaton">
+                        Оставить заявку
+                    </button>
+
+                    <p class="personal-data">Заполняя форму вы соглашаетесь на обработку персональных данных и получение информационных сообщений от PRODEAL</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    @@include('layout/_footer.html')
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    @@include('layout/_scripts.html')
+</body>
+</html>

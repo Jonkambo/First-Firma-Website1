@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 79px;
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    &__links {
+        padding: 16px 24px;
+        color: var(--text-color);
+        margin: 0;
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+}
+
+.contact-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 4px;
+
+    &__number {
+        color: var(--text-color);
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+    
+    &__daytime {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 8px;
+
+        color: #919399;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+
+    }
+}
+
