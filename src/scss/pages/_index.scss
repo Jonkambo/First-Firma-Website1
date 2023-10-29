@@ -1,9 +1,4 @@
 .about-service {
-    background-color: var(--background-color);
-    border-radius: 0px 0px 100px 100px;
-    padding: 120px;
-    
-
     &__container {
         display: flex;
     }
@@ -25,18 +20,11 @@
     }
 }
 
-
-.cross {
-    margin-top: -100px;
-    padding: 0px 120px 60px 120px;
-
-    &__container {
-        justify-content: space-between;
-        display: flex;
-        gap: 32px;
-    }
+.cross__container {
+    justify-content: space-between;
+    display: flex;
+    gap: 32px;
 }
-
 
 .block {
     display: flex;
@@ -73,16 +61,10 @@
     }
 }
 
-.about-company {
-    padding: 60px 120px;
-
-    &__container {
-        
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
+.about-company__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .advantages-2 {
@@ -122,15 +104,12 @@
 }
 
 
-.how-it-works {
-    padding: 120px;
-    
-    &__container {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
+.how-it-works__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+
 
 .selection-block {
     display: flex;
@@ -160,9 +139,6 @@
     }
 }
 
-.calculator {
-    padding: 120px;
-}
 
 .calculator-block {
     display: flex;
@@ -287,8 +263,6 @@
 }
 
 .what-selling {
-    padding: 120px;
-
 
     &__container {
         display: flex;
@@ -336,8 +310,6 @@
 }
 
 .why-this-company {
-    padding: 0px 120px 120px 120px;
-    
     &__container {
         display: flex;
         flex-direction: column;
@@ -371,8 +343,6 @@
 }
 
 .reviews {
-    padding: 0px 120px 120px 120px;
-
     &__container {
         display: flex;
         flex-direction: column;
@@ -414,7 +384,6 @@
 }
 
 .ansver-form {
-
     &__container {
         padding: 100px 110px 100px 60px;
         display: flex;

@@ -34,8 +34,9 @@
 }
 
 .btn-create {
+    display: inline-block;
+
     padding: 16px 40px;
-    justify-content: center;
     border-radius: 1000px;
 
     background: var(--btn-color-hover);
